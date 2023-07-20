@@ -1,0 +1,400 @@
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+.gamer{
+color: #0B0223;
+font-size: 45px;
+font-weight: 700;
+margin-left: 20px;
+}
+.h-leftside{
+    display: flex;
+    align-items: center;
+}
+.h-icon{
+    width: 2.7em;
+    height: 2em;
+    margin-left: 16px;
+
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.h-btn{
+    padding: 17px 16px 18px 24px;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+color: #3C354F;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+}
+li a{
+    text-decoration: none;
+    margin-left: 16px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 2em 14em;
+
+}
+/*banner part*/
+.play{
+color: #0B0223;
+font-size: 3em;
+font-weight: 600;
+text-transform: uppercase;
+margin-bottom: 0px;
+}
+.pros{
+font-size: 5.93em;
+font-weight: 800;
+text-transform: uppercase;
+
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin: 0px;
+}
+.bicon{
+    margin-right: 0.3125em;
+}
+div > ul >li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.0625em;
+
+color: #534C64;
+font-size: 1.3em;
+font-weight: 500;
+
+}
+.b-left{
+    border: 4px soid tomato;
+    padding-left: 14em;
+    margin-right: 10em;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b-btn1{
+
+    margin-right: 2.2em;
+    color: #FFF;
+    font-size: 1em;
+
+display: inline-flex;
+padding: 1em 1.5em;
+align-items: flex-start;
+
+border-radius: 3em;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+}
+.b-btn2{
+    color: #FFF;
+    font-size: 1em;
+
+ display: inline-flex;
+ padding: 0.9em 1.5em;
+align-items: flex-start;
+
+border-radius: 3em;
+background: #4EC5F7;
+}
+.b-image{
+    padding-right: 14em;
+    padding-top: 1.25em;
+}
+/*main section*/
+.playgame{
+color: #0B0223;
+font-size: 48px;
+font-weight: 700;
+padding-left: 33%;
+margin-bottom: 0;
+}
+.acollecction{
+color: #534C64;
+font-size: 18px;
+font-weight: 400;
+padding-left: 38%;
+
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3%;
+}
+.pimage{
+    position: relative;
+}
+.playbtn{
+    background-color: lightgray;
+    border-radius: 30%;
+    color: white;
+    font-weight: 600;
+    position: relative;
+    bottom: 17em;
+    margin-left: 35%;
+    opacity: 0;
+}
+.hovcont:hover .playbtn{
+border: 2px solid whitesmoke;
+background-color: gray;
+opacity: 1;
+
+}
+.hovcont:hover .pimage{
+    opacity: 0.5;
+}
+
+.imgwrite{
+display: flex;
+color: #534C64;
+font-size: 20px;
+font-weight: 500;
+}
+/*section2*/
+.p-write{
+color: #0B0223;
+font-size: 48px;
+font-weight: 700;
+
+}
+.playinstant{
+display: flex;
+justify-content: space-between;
+padding-left: 17em;
+align-items: center;
+
+
+}
+.smalw{
+    display: flex;
+    justify-content: left;
+
+color: #534C64;
+font-size: 0.321em;
+font-weight: 400;
+margin-top: 0;
+}
+.s-img{
+    margin-right:10.5em;
+    margin-top: 5em;
+    margin-left: 10em;
+    margin-bottom: 0;
+}
+.downpic{
+    width: 40em;
+    height: 43em;
+    margin-left: 5.5em;
+}
+.uppic{
+    margin: 0;
+    width: 18.5em;
+    height: 23em;
+    position: relative;
+    bottom: 13.5em;
+}
+/*section 3*/
+.hoverlist{
+    display: grid;
+    grid-template-columns: repeat(4, 15em);
+    justify-content: center;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    align-items: center;
+    padding: 10em;
+}
+.hoverimg{
+    margin-right: 1.3em;
+}
+.hoverlist li{
+color: #0B0223;
+font-size: 1.3em;
+font-weight: 600;
+
+    padding: 1.5px;
+    padding-left: 0;
+    background: #FFF;
+    border-radius: 50px;
+
+}
+.hoverlist li:hover{
+
+border: 1px solid #FF42A5;
+color: #FF42A5;
+font-size: 1.3em;
+font-weight: 600;
+
+border-radius: 50px;
+background:lightgray
+
+
+}
+/*footer part*/
+footer{
+    background-color: #0B0223;
+    color: #FFF;
+}
+.fgamer{
+    
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
+    }
+.fgame{
+    display: flex;
+    align-content: center;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 10%;
+}
+
+footer > ul{
+display: inline-flex;
+padding: 10px;
+align-items: flex-start;
+gap: 60px;
+color: rgba(255, 255, 255, 0.60);
+padding-left: 30%;
+padding-right: 30%;
+
+}
+
+footer > ul >li{
+    font-size: 
+}
+footer > ol{
+    display: inline-flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 60px;
+    padding-left: 35%;
+}
+.tac{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 60px;
+    color: rgba(255, 255, 255, 0.60);
+    padding-left: 30%;
+}
+.copywrite{
+color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-bottom: 20%;
+}
+.fbtn{
+    background-color: #0B0223;
+    border-radius: 20px;
+    border-color:black;
+    
+}
+/*midea*/
+@media screen and (max-width: 576px) {
+    /*.h-leftside{
+        display: grid;
+        grid-template-columns: 300px;
+    }*/
+    nav > ul{
+        display: grid;
+        list-style: none;
+        grid-template-columns: 100%;
+}
+nav{
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: center;
+
+}
+
+/*div > ul >li{
+    display: grid;
+    grid-template-columns: 300px;
+}*/
+.banner{
+    display: grid;
+    grid-template-columns: 150%;
+    justify-content: center;
+    padding: auto;
+    margin: 0;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 300px;
+    gap: 1%;
+}
+
+.playinstant{
+    display: grid;
+    grid-template-columns: 300px;
+    margin-top: 10%;
+    justify-content: center;
+    padding-left: 0.5em;
+    
+}
+.s-img{
+    margin:0;
+    padding: 0;
+}
+.downpic{
+    width: 22em;
+    height:22em;
+    margin-left: 2em;
+}
+.uppic{
+    width: 8.5em;
+    height: 10em;
+    bottom: 5.6em;
+}
+.hoverlist{
+    display: grid;
+    grid-template-columns: repeat(1, 15em);
+}
+
+.gamebarlist{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    justify-content: center;
+}
+footer >ul{
+    padding: 0px;
+}
+footer > ol{
+    padding: 0px;
+}
+.tac{
+    padding: 0px;
+}
+.copywrite{
+    padding: 0;
+    padding-bottom: 15%;
+}
+.fbtn{
+    padding-left: 5px;
+}
+}
